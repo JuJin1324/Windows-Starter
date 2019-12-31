@@ -62,3 +62,6 @@ Windows 설치 이후 개발에 필요한 도구 설치 및 문제 해결 팁
 
 ### tomcat
 * 설치 : `scoop install tomcat`
+
+### KaKaoTalk
+* 설치 : `scoop install kakaotalk`
