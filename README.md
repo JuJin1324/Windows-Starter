@@ -1,5 +1,5 @@
 # Windows-Starter
-Windows 설치 이후 개발에 필요한 도구 설치 및 문제 해결 팁 
+Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 
 ## Scoop
 * Scoop : Windows 전용 패키지(응용 프로그램) 설치 관리자
