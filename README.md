@@ -1,20 +1,23 @@
 # Windows-Starter
-Windows 설치 이후 개발에 필요한 도구 설치
+Windows 설치 이후 개발에 필요한 도구 설치 및 문제 해결 팁 
 
 ## Scoop
-* Scoop : 패키지(응용 프로그램) 설치 관리자
+* Scoop : Windows 전용 패키지(응용 프로그램) 설치 관리자
+* 공식 페이지 : [링크](https://scoop.sh/)
 
 ### Scoop 설치
-* Windows PowerShell 에서 작업 
-* `> Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')`
-* `> Set-ExecutionPolicy RemoteSigned -scope CurrentUser`
+* <b>Windows PowerShell</b>에서 작업 
+* 설치 명령어 : `> Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')`
+* 설치정책 변경 : `> Set-ExecutionPolicy RemoteSigned -scope CurrentUser`
 * `> ...실행정책을 변경하시겠습니까? Y`
+* 다시 설치 명령어 : `> Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')`
 
-### 사용법
-* 패키지(응용프로그램 찾기) : `> scoop search [찾을 패키지 명]`
+### Scoop 사용법
+* 패키지(응용프로그램) 찾기 : `> scoop search [찾을 패키지 명]`
 * 패키지 설치 : `> scoop install [패키지 명]`
 * 패키지 삭제 : `> scoop uninstall [패키지 명]`
 * 버킷(저장소) 추가 : `> scoop bucket add [버킷명]`
+* 설치된 패키지 목록보기 : `> scoop list`
 
 ### aria2
 * aria2 : scoop에서 다중연결(Multi-Connection) 다운로드 지원
