@@ -21,37 +21,43 @@ Windows 설치 이후 개발에 필요한 도구 설치 및 문제 해결 팁
 
 ### aria2
 * aria2 : scoop에서 다중연결(Multi-Connection) 다운로드 지원
-* aria2 설치 : `> scoop install aria2`
+* 설치 : `> scoop install aria2`
 
 ### Chrome
 * 구글의 브라우저 크롬 설치를 위한 버킷(저장소) 추가 : `> scoop bucket add extra`
-* 크롬 설치 : `>scoop install googlechrome`
+* 설치 : `>scoop install googlechrome`
 
 ### OpenJDK 
 * OpenJDK 설치를 위한 버킷(저장소) 추가 : `> scoop bucket add java`
 * OpenJDK 8 버전으로 설치 : `> scoop install adopt8-hotspot`
 
 ### JetBrain 
-* JetBrain ToolBox 설치 : `> scoop install jetbrains-toolbox`
+* 설치 : `> scoop install jetbrains-toolbox`
 
 ### Docker
 * Docker 실행을 위한 Hyper-V 활성화 
   - 관리자 모드로 PowerShell 실행
   - 다음 명령어 실행 : `> Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
   - 윈도우즈 재시작
-* Docker 설치 : `> scoop install docker`
+* 설치 : `> scoop install docker`
 
 ### Visual Studio Code
-* Visual Studio Code 설치 : `> scoop install vscode`
+* 설치 : `> scoop install vscode`
+
+### Git
+* 설명 : 버전 관리
+* 설치 : `> scoop install git`
 
 ### GitHub Desktop 
-* GitHub Desktop 설치 : `> scoop install github`
+* 설명 : 앱으로 Github 관리 
+* 설치 : `> scoop install github`
 
 ### Slack
-* Slack 설치 : `scoop install slack`
+* 설명 : 사내 메신져
+* 설치 : `scoop install slack`
 
 ### ADB
-* android platform tools
+* 설명 : android platform tools
 * 설치 : `scoop install adb`
 
 ### tomcat
