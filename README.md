@@ -44,3 +44,12 @@ Windows 설치 이후 개발에 필요한 도구 설치
 ### GitHub Desktop 
 * GitHub Desktop 설치 : `> scoop install github`
 
+### Slack
+* Slack 설치 : `scoop install slack`
+
+### ADB
+* android platform tools
+* 설치 : `scoop install adb`
+
+### tomcat
+* 설치 : `scoop install tomcat`
