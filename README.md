@@ -60,6 +60,10 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 * 설명 : 웹 서버로부터 컨텐츠 가져오기(주로 압축파일 혹은 프로그램 다운로드 용으로 사용)
 * 설치 : `scoop install wget`
 
+### ntop
+* 설명 : Linux 계열의 htop 혹은 glances 대용 프로그램, CLI로 CPU/RAM 상태 및 프로세스 목록 보는 프로그램
+* 설치 : `scoop install ntop`
+
 ### ADB
 * 설명 : android platform tools
 * 설치 : `scoop install adb`
