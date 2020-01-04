@@ -56,6 +56,10 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 * 설명 : 사내 메신져
 * 설치 : `scoop install slack`
 
+### wget
+* 설명 : 웹 서버로부터 컨텐츠 가져오기(주로 압축파일 혹은 프로그램 다운로드 용으로 사용)
+* 설치 : `scoop install wget`
+
 ### ADB
 * 설명 : android platform tools
 * 설치 : `scoop install adb`
