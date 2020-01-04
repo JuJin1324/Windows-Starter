@@ -64,6 +64,19 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 * 설명 : Linux 계열의 htop 혹은 glances 대용 프로그램, CLI로 CPU/RAM 상태 및 프로세스 목록 보는 프로그램
 * 설치 : `scoop install ntop`
 
+### netcat 
+* 설명 : 통신을 리스닝 서버를 netcat 명령어를 통해 간단하게 실행 가능
+* 설치 : `scoop install netcat`
+* 사용법
+  1. 외부 서버에 특정 포트로 접속이 가능한지 확인 : `nc -z [외부 서버 주소] [포트]`
+  2. Listening 서버를 로컬에 띄우기 : `nc -l [포트]`
+  
+### ngrok
+* 설명 : 외부망에서 tcp 접속할 수 있도록 지정 포트를 ngrok에서 제공해주는 도메인 및 포트에 바인딩해준다.
+* 주의 : 회원가입 필요(무료)
+* 설치 : `scoop install ngrok`
+* 사용법 : `ngrok tcp [로컬 서버 프로세스의 포트]`
+
 ### ADB
 * 설명 : android platform tools
 * 설치 : `scoop install adb`
