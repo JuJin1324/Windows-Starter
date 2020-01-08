@@ -38,13 +38,6 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 ### JetBrain 
 * 설치 : `scoop install jetbrains-toolbox`
 
-### Docker
-* Docker 실행을 위한 Hyper-V 활성화 
-  - 관리자 모드로 PowerShell 실행
-  - 다음 명령어 실행 : `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
-  - 윈도우즈 재시작
-* 설치 : `scoop install docker`
-
 ### Visual Studio Code
 * 설치 : `scoop install vscode`
 
@@ -89,3 +82,20 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 
 ### KaKaoTalk
 * 설치 : `scoop install kakaotalk`
+
+## Chocolatey
+* <b>Windows PowerShell</b>에서 작업 
+* 설치 명령어 : `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+### Chocolatey 사용법
+* 패키지(응용프로그램) 찾기 : `choco search [찾을 패키지 명]`
+* 패키지 설치 : `choco install [패키지 명]`
+* 패키지 삭제 : `choco uninstall [패키지 명]`
+* 설치된 패키지 목록보기 : `choco list`
+
+### Docker
+* Docker 실행을 위한 Hyper-V 활성화 
+  - 관리자 모드로 PowerShell 실행
+  - 다음 명령어 실행 : `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
+  - 윈도우즈 재시작
+* 설치(관리자 모드로 시작) : `choco install docker-desktop`
