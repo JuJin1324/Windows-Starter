@@ -23,6 +23,10 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 * aria2 : scoop에서 다중연결(Multi-Connection) 다운로드 지원
 * 설치 : `scoop install aria2`
 
+### Git
+* 설명 : 버전 관리
+* 설치 : `scoop install git`
+
 ### Chrome
 * 구글의 브라우저 크롬 설치를 위한 버킷(저장소) 추가 : `scoop bucket add extra`
 * 설치 : `scoop install googlechrome`
@@ -43,10 +47,6 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 
 ### Visual Studio Code
 * 설치 : `scoop install vscode`
-
-### Git
-* 설명 : 버전 관리
-* 설치 : `scoop install git`
 
 ### GitHub Desktop 
 * 설명 : 앱으로 Github 관리 
