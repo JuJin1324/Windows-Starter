@@ -28,7 +28,7 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 * 설치 : `scoop install git`
 
 ### Chrome
-* 구글의 브라우저 크롬 설치를 위한 버킷(저장소) 추가 : `scoop bucket add extra`
+* 구글의 브라우저 크롬 설치를 위한 버킷(저장소) 추가 : `scoop bucket add extras`
 * 설치 : `scoop install googlechrome`
 
 ### OpenJDK 
