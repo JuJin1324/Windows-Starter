@@ -7,10 +7,9 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 
 ### Scoop 설치
 * <b>Windows PowerShell</b>에서 작업 
-* 설치 명령어 : `Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')`
-* 설치정책 변경 : `Set-ExecutionPolicy RemoteSigned -scope CurrentUser`
+* 설치 이전에 정책 변경 : `Set-ExecutionPolicy RemoteSigned -scope CurrentUser`
 * `> ...실행정책을 변경하시겠습니까? Y`
-* 다시 설치 명령어 : `Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')`
+* 설치 명령어 : `Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')`
 
 ### Scoop 사용법
 * 패키지(응용프로그램) 찾기 : `scoop search [찾을 패키지 명]`
