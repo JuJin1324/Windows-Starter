@@ -22,6 +22,9 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 * aria2 : scoop에서 다중연결(Multi-Connection) 다운로드 지원
 * 설치 : `scoop install aria2`
 
+### nodejs
+* 설치: `scoop install nodejs`
+
 ### Git
 * 설명 : 버전 관리
 * 설치 : `scoop install git`
