@@ -38,6 +38,7 @@ Windows에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 * 설치 : `scoop install jetbrains-toolbox`
 
 ### Visual Studio Code
+* 버킷 추가: `scoop bucket add extras`
 * 설치 : `scoop install vscode`
 
 ### GitHub Desktop 
