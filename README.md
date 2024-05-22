@@ -83,3 +83,13 @@
 
 ---
 
+## Windows Dos 명령어 
+### 기본 명령어
+> * `dir`: ls 명령어  
+> * `cls`: clear 명령어  
+> * `cd`: cd 명령어  
+> * `mkdir [생성할 디렉터리]`: mkdir 명령어  
+> * `rmdir [삭제할 디렉터리]`: rm -r 명령어  
+> * `del [삭제할 파일명]`: rm 명령어
+> * `copy [복사할 파일명] [복사할 위치 경로]`: cp 명령어  
+> * `netstat -ano |findstr \[::]\:`: 열린 포트확인 
