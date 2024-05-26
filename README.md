@@ -79,7 +79,12 @@
 > * 관리자 모드로 PowerShell 실행
 > * 다음 명령어 실행 : `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
 > * 윈도우즈 재시작
+> 
 > 설치(관리자 모드로 시작) : `choco install docker-desktop`
+> 
+> **설정**   
+> * General -> Use the WSL 2 based engine 체크
+> * Resources -> Enable integration with my default WSL distro 체크, Ubuntu-XX.04 체크
 
 ---
 
@@ -99,7 +104,7 @@
 ## WSL
 ### 윈도우 하위시스템 리눅스
 > WSL 로 우분투를 실행하기 위해서는 먼저 `Windows 기능 켜기 끄기` 를 열어서 다음 항목을 체크한다.  
-> * Linux용 Windows 하위 시스템
+> * Linux 용 Windows 하위 시스템
 > * 가상 머신 플랫폼
 > 
 > WSL 설치 명령을 위해서는 관리자 권한의 Powershell 을 연 후 다음 명령어를 실행한다.     
