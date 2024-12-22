@@ -1,15 +1,69 @@
 # Windows-Starter
 > Windows 에서 웹 개발에 필요한 환경 잡기 및 지식 정리
 
+## Winget
+### 개요
+> Windows11 이후 기본 설치 관리자  
+> GUI 애플리케이션 위주로 다운 받는다. zsh 같은 애플리케이션은 지원이 약하기 때문에 zsh 관련 애플리케이션은 choco 로 다운로드 받는다.  
+
+### 모두 업데이트
+> 명령어: `winget upgrade --all`
+
+### 패키지 찾기 링크
+> [Winstall](https://winstall.app)  
+
+### Chocolatey
+> 설치: `winget install --id=Chocolatey.Chocolatey  -e`
+
+### windows terminal
+> 설치: `winget install --id=Microsoft.WindowsTerminal  -e`
+
+### Notion
+> 설치: `winget install --id=Notion.Notion  -e`
+
+### Chrome
+> 설치: `winget install --id=Google.Chrome  -e`
+
+### Git
+> 설치 : `winget install --id=Git.Git  -e`
+
+### OpenJDK
+> OpenJDK 8 버전으로 설치 : `winget install --id=Amazon.Corretto.8.JDK  -e`  
+> OpenJDK 11 버전으로 설치 : `winget install --id=Amazon.Corretto.11.JDK  -e`
+
+### Visual Studio Code
+> 설치 : `winget install --id=Microsoft.VisualStudioCode  -e`
+
+### JetBrain Toolbox
+> 설치 : `winget install --id=JetBrains.Toolbox  -e`
+
+### KaKaoTalk
+> 설치 : `winget install --id=Kakao.KakaoTalk  -e`
+
+### Slack
+> 설치 : `winget install --id=SlackTechnologies.Slack  -e`
+
+### Docker
+> Docker 실행을 위한 Hyper-V 활성화
+> * 관리자 모드로 PowerShell 실행
+> * 다음 명령어 실행 : `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
+> * 윈도우즈 재시작
+>
+> 설치(관리자 모드로 시작) : `winget install --id=Docker.DockerDesktop  -e`
+>
+> **설정**
+> * General -> Use the WSL 2 based engine 체크
+> * Resources -> Enable integration with my default WSL distro 체크, Ubuntu-XX.04 체크
+
+---
+
 ## Chocolatey
 ### 개요
 > Chocolatey : Windows 전용 패키지(응용 프로그램) 설치 관리자
 > 공식 페이지 : [링크](https://chocolatey.org)
 
-### 설치
-> 1. Windows + S 를 누른 후 Windows PowerShell 관리자로 열기   
-> 2. 다음 명령어 입력: `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
-> 설치 링크: [Installing Chocolatey](https://chocolatey.org/install#install-with-cmdexe)
+### 모두 업데이트
+> 명령어: `choco upgrade all -y`
 
 ### 사용법
 > 패키지(응용프로그램) 찾기 : `choco search [찾을 패키지 명]`
@@ -19,31 +73,6 @@
 
 ### 패키지 찾기 링크
 > [Find Packages](https://community.chocolatey.org/packages)
-
-### windows terminal
-> 설치: `choco install microsoft-windows-terminal`
-
-### nodejs
-> 설치: `choco install -y nodejs`
-
-### Git
-> 설치 : `choco install -y git`
-
-### Chrome
-> 설치 : `choco install -y GoogleChrome`
-
-### OpenJDK
-> OpenJDK 8 버전으로 설치 : `choco install -y corretto11jdk`  
-> OpenJDK 11 버전으로 설치 : `choco install -y corretto8jdk`  
-
-### JetBrain Toolbox
-> 설치 : `choco install -y jetbrainstoolbox`
-
-### Visual Studio Code
-> 설치 : `choco install -y vscode`
-
-### Slack
-> 설치 : `choco install -y slack`
 
 ### wget
 > 설명 : 웹 서버로부터 컨텐츠 가져오기(주로 압축파일 혹은 프로그램 다운로드 용으로 사용)
@@ -70,21 +99,6 @@
 
 ### telnet
 > 설치 : `choco install telnet`
-
-### KaKaoTalk
-> 설치 : `choco install kakaotalk`
-
-### Docker
-> Docker 실행을 위한 Hyper-V 활성화 
-> * 관리자 모드로 PowerShell 실행
-> * 다음 명령어 실행 : `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All`
-> * 윈도우즈 재시작
-> 
-> 설치(관리자 모드로 시작) : `choco install docker-desktop`
-> 
-> **설정**   
-> * General -> Use the WSL 2 based engine 체크
-> * Resources -> Enable integration with my default WSL distro 체크, Ubuntu-XX.04 체크
 
 ---
 
